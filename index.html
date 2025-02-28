@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/port.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header id="header-bg">
+
+        <nav>
+            <h1><span>JESS</span>ica.</h1>
+            
+            <ul class="nav-links">
+                <li><a href="index.html#header-bg">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+          
+        </nav>
+        
+
+        <div class="main-container">
+
+            <div class="container">
+                <!-- background image goes here -->
+            </div>
+
+            <div class="headertext">
+                <h1>Hi!, I'm <span>Jessica Armstrong</span></h1>
+                <p>A web developer in Ghana</p>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div id="about">
+        <div class="container1">
+            <div class="row">
+                <div class="about-1">
+                    <img src="./Images/P8.png">
+                </div>
+                <div class="about-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I'm a passionate web developer skilled in HTML, CSS, JavaScript, and modern frameworks. I
+                        specialize in building responsive, user-friendly websites with clean code and creative design.
+                        Always eager to learn, I stay updated with the latest trends to create fast, engaging, and
+                        accessible web experiences.
+
+                        Let’s build something amazing! </p>
+                    <div class="about-3">
+                        <p class="links active" onclick="openTab('skills', this)">Skills</p>
+                        <p class="links" onclick="openTab('experience', this)">Experience</p>
+                        <p class="links" onclick="openTab('education', this)">Education</p>
+                    </div>
+                    <div class="contents active" id="skills">
+                        <ul>
+                            <li><span>Technical Skills</span></li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li><span>Soft Skills</span></li>
+                            <li>Problem Solving and critical thinking</li>
+                            <li>Collaboration and team work</li>
+                            <li>Time management</li>
+                            <li>Adaptability</li>
+                        </ul>
+                    </div>
+                    <div class="contents" id="experience">
+                        <ul>
+                            <li><span>2023-2024</span><br>Administrative Assistant at MIS</li>
+                            <li><span>2022-2023</span><br>IT Support Assistant at GAEC</li>
+
+                        </ul>
+                    </div>
+                    <div class="contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Web development at MEST</li>
+                            <li><span>2018-2022</span><br>Computer Science at University of Ghana</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Services section -->
+    <div id="services">
+        <div class="container-1">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <h2>Web Development</h2>
+                    <p>Building fast, responsive, and user-friendly websites and applications, ensuring seamless
+                        functionality
+                        and a great user experience across all devices.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa fa-laptop" aria-hidden="true"></i>
+                    <h2>IT Support</h2>
+                    <p>Ensure smooth operation of your technology by troubleshooting issues, maintaining systems, and
+                        providing
+                        solutions to keep your business running efficiently and securely.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    <h2>IT Administrative Services</h2>
+                    <p>Streamlining IT operations, managing security, and ensuring reliable system performance.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container-2">
+            <h1 class="sub-t">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="./Images/1.jpg">
+                    <div class="layout">
+                        <h3>Travel Website</h3>
+                        <p>Explore the world with ease! Discover breathtaking destinations, travel tips, and
+                            unforgettable experiences tailored just for you.</p>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/2.jpg">
+                    <div class="layout">
+                        <h3>School Website</h3>
+                        <p> Explore a vibrant learning environment where students grow academically, socially, and
+                            creatively.</p>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/3.jpg">
+                    <div class="layout">
+                        <h3>Hotel Website</h3>
+                        <p>Experience luxury and comfort with world-class hospitality. Enjoy elegant rooms, exquisite
+                            dining, and top-tier amenities designed for relaxation and convenience</p>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container-3">
+            <div class="row1">
+                <div class="contact-l">
+                    <h1 subt>Contact Me</h1>
+                    <p><i class="fa fa-paper-plane" aria-hidden="true"></i>jessicayumietornam@gmail.com</p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i>+233 201 004 748</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/jessalyn.armstrong" target="_blank"><i
+                                class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="www.linkedin.com/in/jessica-yumi-etornam-armstrong-b876b834b"><i
+                                class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <a href="https://x.com/JeyaJessica?t=dvWggeBn1QWucuOAIC7S6A&s=09" target="_blank"><i
+                                class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/jessicaarmstrong787?igsh=MXFxMWd4dnRrb3pyeA=="
+                            target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/12_GF8nhuVYH65WpybeZL05RNClGJUgln/view?usp=sharing"
+                        target="_blank" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-r">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="last">
+            <p>Copyright ©️ Jessica. Made by me with 💖</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
