@@ -115,12 +115,11 @@ nav ul li a:hover::after {
     color: #ababab;
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
+.container1{
+    justify-content: center;
+    align-items: center;
 }
+
 
 .about-1 img {
     width: 80%;
@@ -136,12 +135,15 @@ nav ul li a:hover::after {
     max-width: 60%;
     min-width: 350px;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-2 p {
     display: block;
     margin-bottom: 20px;
     font-size: 20px;
+    padding-left: 20px;
 }
 
 .about-1,
@@ -160,6 +162,7 @@ nav ul li a:hover::after {
     justify-content: flex-start;
     gap: 20px;
     width: 100%;
+    padding: 20px;
 }
 
 .links {
@@ -194,6 +197,7 @@ nav ul li a:hover::after {
     margin: 8px 0;
     font-size: 16px;
     line-height: 1.5;
+    padding-left: 20px;
 }
 
 .contents ul li span {
@@ -212,6 +216,7 @@ nav ul li a:hover::after {
     display: block;
     width: 100%;
     padding-top: 10px;
+    padding-left: 20px;
 }
 
 .about-3+.contents {
